@@ -10,7 +10,7 @@ input="dshow"
 input="avfoundation"
 
 # [VIDEO:AUDIO]
-device=":0"
+device=":1"
 
 # Stereo needs 2 channels ;-)
 channels=2
