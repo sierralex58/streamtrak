@@ -30,7 +30,7 @@ password=***REMOVED***
 $FFMPEG_HOME/ffmpeg -f $input -list_devices true -i ""
 
 echo "---------------------------------------------------------------------------"
-# loop forever. increase volume by 2 dB, stream-quality 2, mp3 converter
+# loop forever. increase volume by 2 dB, stream-quality 2 (good), mp3 converter
 while true
 do
 $FFMPEG_HOME/ffmpeg \
