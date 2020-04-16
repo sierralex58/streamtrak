@@ -1,5 +1,5 @@
 # Stream to icecast with ffmpeg
-#
+# Alexandre Masson/16.4.20
 #
 # you should find DShow device name by:
 #   ffmpeg.exe -list_devices true -f dshow -i dummy
