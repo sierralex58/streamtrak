@@ -2,3 +2,5 @@ ffmpeg
 ffplay
 ffprobe
 **/.idea
+*.mp4
+*.iml
