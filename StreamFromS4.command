@@ -3,7 +3,8 @@
 #
 # you should find DShow device name by:
 #   ffmpeg.exe -list_devices true -f dshow -i dummy
-input="dshow"
+
+source ./config.ini
 
 # Input device on macOS
 # setup a default device at System Preferences > Sound > Input
@@ -14,15 +15,6 @@ device=":0"
 
 # Stereo needs 2 channels ;-)
 channels=2
-
-#host
-url="djlex.ch:8000/stream"
-
-#username
-username="source"
-
-#password
-password="music"
 
 #--------------------------------------------------------------------------------
 
