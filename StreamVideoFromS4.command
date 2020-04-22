@@ -18,10 +18,10 @@ channels=2
 url="djlex.ch:8000/video.ts"
 
 #username
-username=***REMOVED***
+username="source"
 
 #password
-password=***REMOVED***
+password="music"
 
 
 #--------------------------------------------------------------------------------
