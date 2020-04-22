@@ -4,3 +4,4 @@ ffprobe
 **/.idea
 *.mp4
 *.iml
+config.ini
