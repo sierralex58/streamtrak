@@ -10,7 +10,7 @@ input="dshow"
 input="avfoundation"
 
 # [VIDEO:AUDIO]
-device=":1"
+device=":0"
 
 # Stereo needs 2 channels ;-)
 channels=2
@@ -36,7 +36,7 @@ do
 $FFMPEG_HOME/ffmpeg \
     -f $input \
     -i $device \
-    -filter:a "volume=2dB" \
+    -filter:a "volume=6dB" \
     -codec:a libmp3lame \
     -q:a 2 \
     -f mp3 \
