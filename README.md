@@ -1,4 +1,4 @@
-# streamtrak
+# streamtrak (traktor s4 to icecast)
 Stream audio to icecast directly from Traktor S4, using ffmpeg.
 
 Tested on Traktor S4 MKIII. Prerequisites:
