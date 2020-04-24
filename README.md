@@ -1,5 +1,7 @@
 # streamtrak (traktor s4 to icecast)
-Stream audio to icecast directly from Traktor S4, using ffmpeg.
+Stream audio to icecast directly from Traktor S4, using ffmpeg mp3-encoding (or which ever you want).
+
+I found it a little painful, that traktor only uses ogg/vorbis codec to stream to icecast. With ffmpeg you can stream mp3, which can be played on every webbrowser, without any player or extension (html5 I belive).
 
 Tested on Traktor S4 MKIII. Prerequisites:
 - Define channel C for live input
