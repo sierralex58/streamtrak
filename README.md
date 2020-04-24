@@ -7,6 +7,8 @@ Tested on Traktor S4 MKIII. Prerequisites:
 - DO NOT press the EXT-button next to the channels gain knob
 - Connect mic to the D channel and configre for live input
 - press shift-ext to enable mic preamp
+- create config.ini for icecast, url, username, password
+- check index of avfoundation (see output of this command) and change to traktors e.g. :1
 - start StreamFromS4
 - enjoy
 
