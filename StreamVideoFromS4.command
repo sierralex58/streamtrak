@@ -39,10 +39,9 @@ do
 
 #$FFMPEG_HOME/ffmpeg -video_size 640x480 -framerate 30 -f $input -i $device -f webm -r 25 -s 1280x800 -cluster_size_limit 2M -cluster_time_limit 5100 -content_type video/webm -c:v libvpx -b:v 1M  -threads 4 icecast://$username:$password@$url
 $FFMPEG_HOME/ffmpeg -f $input -i $device \
-  -f mpegts -content_type video/m2ts \
+  -f mpegts -s 320x420 -content_type video/m2ts \
   -c:a aac -b:a 240K \
   -vcodec libx264 -b:v 2.5M  \
-  -frame_size 250 \
     icecast://$username:$password@$url
 
   exit
