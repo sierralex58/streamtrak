@@ -10,7 +10,7 @@ source ./config.ini
 # setup a default device at System Preferences > Sound > Input
 input="avfoundation"
 
-# [VIDEO:AUDIO]
+# [VIDEO:AUDIO] for traktor, check index resulting from -list_devices command
 device=":0"
 
 # Stereo needs 2 channels ;-)
@@ -21,7 +21,8 @@ channels=2
 # List all MAC OS devices
 $FFMPEG_HOME/ffmpeg -f $input -list_devices true -i ""
 
-echo "---------------------------------------------------------------------------"
+echo 'Press any key to continue...'; read -k1 -s
+
 # loop forever. increase volume by 2 dB, stream-quality 2 (good), mp3 converter
 while true
 do
