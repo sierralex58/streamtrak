@@ -6,6 +6,8 @@
 
 # Input device on macOS
 # setup a default device at System Preferences > Sound > Input
+source ./config.ini
+
 input="avfoundation"
 
 # [VIDEO:AUDIO]
@@ -13,16 +15,6 @@ device=":0.0"
 
 # Stereo needs 2 channels ;-)
 channels=2
-
-#host
-url="djlex.ch:8000/video.ts"
-
-#username
-username=***REMOVED***
-
-#password
-password=***REMOVED***
-
 
 #--------------------------------------------------------------------------------
 
